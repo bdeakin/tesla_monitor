@@ -1,7 +1,7 @@
 # tesla_monitor
 A simple Sketch for powering an 8266 to pull down metrics from Teslascope and display on a small multi-function display
 
-https://github.com/bdeakin/tesla_monitor/issues/1#issue-690169324
+![Photo of monitor](https://github.com/bdeakin/tesla_monitor/issues/1#issue-690169324)
 
 # Prerequisites
 
