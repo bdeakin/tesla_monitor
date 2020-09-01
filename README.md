@@ -3,7 +3,7 @@ A simple Sketch for powering an 8266 to pull down metrics from Teslascope and di
 
 # Prerequisites
 
-You need to own a Tesla. You need to signup at Teslascope.com. Once you do, you'll get a public ID for your car. You'll use that public ID in the sketch itself (see comments in the provided code).
+You need to own a Tesla. You need to signup at Teslascope.com. Once you do, you'll get a #public ID# for your car. You'll use that public ID in the sketch itself (see comments in the provided code).
 
 # Setup
 
