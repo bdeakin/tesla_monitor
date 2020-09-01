@@ -25,8 +25,8 @@ int lcdRows = 4;
 LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);  
 
 // Replace with your network credentials
-const char* ssid = "307OCEAN";
-const char* password = "qetu7177";
+const char* ssid = "<###NETWORK NAME###>";
+const char* password = "<###NETWORK CREDENTIALS###>";
 
 const int ESP_BUILTIN_LED = 2;
 
@@ -89,6 +89,10 @@ void loop() {
   
   http.begin("https://teslascope.com/api/vehicle/<###ADD PUBLIC ID HERE###>?api_key=<###ADD API KEY HERE###>", "85:CB:D3:CB:16:B9:22:74:79:DF:66:D9:18:C8:4A:14:C0:33:D5:94");  //Specify request destination
 
+  ### For whatever reason, the http library requires that hex fingerprint after the actual URL. 
+  ### I went to https://www.grc.com/fingerprints.htm and entered the Teslascope URL and got that back
+  ### It may change periodically so setting up your 8266 for OTA updates so you can fix it without much hassle is important
+  
   http.addHeader("content-type", "application/json");
 
     while (1) {
