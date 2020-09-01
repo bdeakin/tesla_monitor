@@ -12,6 +12,7 @@ There are a number of tutorials for setting up the Arduino IDE to be able to wor
 # Materials
 
 8266 board I used: https://www.amazon.com/gp/product/B081CSJV2V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
 20x4 display I used: https://www.amazon.com/gp/product/B07D7ZQVDR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
 You can get any standard breadboard and jumper cables to make this project, or you can do what I did and 3D print a case, solder it together and make a "professional"-ish looking multifunction device to display.
@@ -19,6 +20,8 @@ You can get any standard breadboard and jumper cables to make this project, or y
 # Fabrication
 
 Here's a quick tutorial on how to solder an ESP8266 to a 20x4. It also includes instructions for setting up the Arduino library for talking to the display (LiquidCrystal_I2C).
+
+https://www.instructables.com/id/Interfacing-LCD-20X4-Display-to-Nodemcu/
 
 # Supporting Materials
 
