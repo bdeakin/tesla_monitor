@@ -1,6 +1,7 @@
 /*********
 
 Blake Deakin
+
 A simple sketch for getting an ESP8266 to power a 20x4 display and show metrics (charging status, range, etc) of your Tesla vehicle
 Several other tutorials were used in the building of this including some really cool stuff from Rui Santos (https://randomnerdtutorials.com)
 
