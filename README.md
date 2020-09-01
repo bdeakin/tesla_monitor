@@ -1,6 +1,8 @@
 # tesla_monitor
 A simple Sketch for powering an 8266 to pull down metrics from Teslascope and display on a small multi-function display
 
+https://github.com/bdeakin/tesla_monitor/issues/1#issue-690169324
+
 # Prerequisites
 
 You need to own a Tesla. You need to signup at Teslascope.com. Once you do, you'll get a public id for your car. You'll use that public ID in the sketch itself (see comments in the provided code). You'll also get an API key for your vehicle through Teslascope, which you'll also need (see comments in code).
