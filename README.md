@@ -1,5 +1,5 @@
 # tesla_monitor
-A simple Sketch for powering an 8266 to pull down metrics from Teslascope and display on a small multi-function display
+A simple Sketch for powering an 8266 to pull down metrics from Teslascope and display on a small multi-function display. This is my first git project and my first time coding C++ since college.
 
 ![Photo of monitor](https://user-images.githubusercontent.com/38141034/91860742-0ab34300-ec3a-11ea-96a0-d84eb9528ff8.jpeg)
 
